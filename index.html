@@ -1,0 +1,189 @@
+<html>
+<head>
+    <title>Python講習会について</title>
+    <meta http-equiv="content-type" charset="utf-8">
+    <style>
+        div.container {
+        margin-left:auto;       
+        margin-right:auto;
+        padding-left : 20px;      
+        text-align:left;       
+        width:800px;          
+        }
+        body {
+        font-family:"Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        color:rgb(58, 58, 58);
+        <!--line-height:25px;-->
+        <!--font-size:0.95em;-->
+        }
+
+        footer {
+        width: 100%;
+        height: 20px; 
+        text-align: center;
+        margin-top: 40px;
+        padding: 10px;
+        background-color: #969696;
+        color: #fff;
+        font-size: 12;
+        }
+
+        h1 {
+        border-bottom: solid 3px #fdd496;
+        position: relative;
+        }
+        h1:after {
+        position: absolute;
+        content: " ";
+        display: block;
+        border-bottom: solid 3px #2d5591;
+        bottom: -3px;
+        width: 20%;
+        }
+        h2 {
+        margin-top: 30px;
+        border-bottom: solid 1px #fdd496;
+        }
+        h3 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        }
+
+        table {
+        border-collapse: collapse;
+        margin: 0 auto;
+        padding: 0;
+        width: auto;
+        table-layout: fixed;
+        }
+
+        table tr {
+        background-color: #ffffff;
+        padding: .35em;
+        border-bottom: 2px solid #fff;
+        }
+        table td {
+        padding: 1em 1px 1em 1em;
+        }
+
+        dl.graybg {
+        background: #f5f5f5;
+        padding: 10px;
+        }
+        dl dd {
+            margin-bottom: 10px;
+        }
+
+        ul.bold {
+            font-weight: bold;
+        }
+        ul.bold li {
+            margin-bottom: 10px;
+        }
+
+        p.indented{
+        padding-left: 2em;
+        }
+    </style>
+</head>
+<body>
+<div  class=container>
+    <h1>
+        <img src="/Users/takuro/Downloads/Python-logo-notext.svg" alt="Python-logo-notext" style="zoom:40%;" />
+        Python講習会概要
+    </h1>
+    <p>
+        本特講では全くのプログラミング初心者を対象に、Python言語の初歩と基本的な解析方法をハンズオン形式で紹介していきます。
+    </p>
+    <h2>
+        <span style="font-size:xx-large">&#x1f465;</span> 対象者
+    </h2>
+    基本的に<strong>プログラミング初心者向け</strong>です。下記の参加の目安を参考にしてください。
+    <h3>
+        参加の目安
+    </h3>
+    <dl class="graybg"> 
+        <dt><b>まったくプログラミングに触れたことがない人</b></dt> 
+            <dd>第1回からの参加をおすすめします。</dd>
+        <dt><b>プログラミングの経験はあるがPythonは使ったことがない人</b></dt> 
+            <dd>第2回からの参加をおすすめします。</dd>
+        <dt><b>Pythonに触れたことがあるが、PandasとかJupyterとかグラフ描画はよく知らない・使ってみたい人</b></dt> 
+            <dd>第3回以降からの参加をおすすめします。</dd>
+        <dt><b>Pythonバリバリ使ってる人</b></dt> 
+            <dd>僕にPython教えて下さい。</dd>
+    </dl>
+    <h2>
+        <span style="font-size:xx-large">&#x1f5a5;</span> 大まかな学習内容（変わる可能性が大いにあります）
+    </h2>
+    <table>
+        <tr align="center">
+            <th>第1回</th><th>第2回</th><th>第3回 &amp; 第4回</th>
+        </tr>
+        <tr>
+            <td valign="top"  align="left">
+                <ol>
+                    <font color="darkgray">
+                        <li>printによる出力</li>
+                        <li>四則演算</li>
+                        <li>インスタンスと型</li>
+                        <li>変数</li>
+                    </font>
+                    <li>文字列操作（その１）</li>
+                    <li>if文による条件分岐</li>
+                    <li>繰り返し</li>
+                </ol>
+            </td>
+            <td valign="top">
+                <ol start="8">
+                    <li>リスト</li>
+                    <li>辞書</li>
+                    <li>ファイル操作</li>
+                    <li>文字列操作（その２）</li>
+                    <li>正規表現</li>
+                    <li>関数の定義</li>
+                </ol>
+            </td>
+            <td valign="top">
+                <ul>
+                    <li>jupyter-labの利用方法</li>
+                    <li>外部ライブラリの導入と利用法</li>
+                    <li>Pandasを用いたDataFrameの取り扱い</li>
+                    <li>Pythonにおけるデータの可視化
+                        <ul>
+                            <li>matplotlib</li>
+                            <li>seaborn</li>
+                        </ul>
+                    </li>
+                    <li>アミノ酸・塩基配列を扱う応用問題</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <ul class="bold"> 
+        <li>第1回・第2回はGoogle Colaboratoryを利用します。Googleのアカウントが無い方はあらかじめ用意することをおすすめします。</li>
+        <li>第1回の最初の4章については予習を前提とし、概要のみの解説です。</li>
+    </ul>
+    <h2>
+        <span style="font-size:xx-large">&#x1f4dd;</span> 第一回
+    </h2>
+    Google Colaboratory上の教材を利用しながら進めます。<br>
+    <p class="indented">
+        <a href="https://colab.research.google.com/drive/1px0W5aCS9oxcHX54tYxfCbN8Hw9I2iCk" target="_blank">
+            第一回目の教材にアクセス
+        </a>
+    </p>
+    上記のリンクをクリックすると教材が開かれます。環境によっては開くまでに時間がかかります。
+    教材の使い方については下の動画を参考にしてください。<br>
+    <a href="" target="_blank">
+        [動画]: 教材の利用方法
+    </a>
+    第一回はプログラミングに全く触れたことのない人を対象にしています。
+    ただし、教材中の1-4章は時間の都合上概要の解説のみになりますので、
+    <strong>全くの初心者の人はあらかじめ教材をよく読み該当する範囲の練習問題を解いておいて</strong>ください。<br>
+    ただし <code>3.インスタンスと型</code> については少し時間を取って説明します。
+    <footer>
+        <div align="right">Python講習会</div>
+    </footer>
+</div>
+</body>
+</html>
