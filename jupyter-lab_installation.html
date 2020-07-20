@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Jupyter-lab installation</title>
+    <meta http-equiv="content-type" charset="utf-8">
+    <style>
+        div.container {
+        margin-left:auto;       
+        margin-right:auto;
+        padding-left : 20px;      
+        text-align:left;       
+        width:800px;          
+        }
+        body {
+        font-family:"Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        color:rgb(58, 58, 58);
+        <!--line-height:25px;-->
+        <!--font-size:0.95em;-->
+        }
+
+        footer {
+        width: 100%;
+        height: 20px; 
+        text-align: center;
+        margin-top: 40px;
+        padding: 10px;
+        background-color: #969696;
+        color: #fff;
+        font-size: 12;
+        }
+
+        h1 {
+        border-bottom: solid 3px #fdd496;
+        position: relative;
+        }
+        h1:after {
+        position: absolute;
+        content: " ";
+        display: block;
+        border-bottom: solid 3px #2d5591;
+        bottom: -3px;
+        width: 20%;
+        }
+        h2 {
+        margin-top: 30px;
+        border-bottom: solid 1px #fdd496;
+        }
+        h3 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        }
+
+        table {
+        border-collapse: collapse;
+        margin: 0 auto;
+        padding: 0;
+        width: auto;
+        table-layout: fixed;
+        }
+
+        table tr {
+        background-color: #ffffff;
+        padding: .35em;
+        border-bottom: 2px solid #fff;
+        }
+        table td {
+        padding: 1em 1px 1em 1em;
+        }
+
+        dl.graybg {
+        background: #f5f5f5;
+        padding: 10px;
+        }
+        dl dd {
+            margin-bottom: 10px;
+        }
+
+        ul.bold {
+            font-weight: bold;
+        }
+        ul.bold li {
+            margin-bottom: 10px;
+        }
+
+        p.indented{
+        padding-left: 2em;
+        }
+    </style>
+</head>
+<body>
+<div  class=container>
+    <h1>
+        Jupyter-Labのインストール: Mac編
+    </h1>
+    <p>
+        Jupyter-LabはGoogle Colaboratoryと同様の機能をもつPythonの開発環境です。
+    </p>
+    <h2>
+        <span style="font-size:xx-large">&#x1f5a5;</span> インストール
+    </h2>
+    下記のコードを実行してください。<br>
+    <p class="indented">
+        <code>
+            brew install python3<br>
+            pip3 install jupyterlab<br>
+        </code>
+    </p>
+    実行後、terminalで下記のコマンドを実行してください。<br>
+    <p class="indented">
+        <code>
+            jupyter-lab<br>
+        </code>
+    </p>
+    ウェブブラウザが立ち上がり、下記のようなアプリケーションが開かれれば問題なくインストールができています。<br>
+    <img src="img/jupyter-lab.png" width="80%" height="50%" vspace="20">
+    <br>
+    確認できたら、<code>Jupyter-labのツールバー > File > Shut Down</code> でJupyter-labを終了し、ウェブブラウザのタブを閉じてください。<br>
+    以上で準備終了です。
+    <footer>
+        <div align="right">Python講習会</div>
+    </footer>
+</div>
+</body>
+</html>
