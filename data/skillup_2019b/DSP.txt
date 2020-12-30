@@ -1,0 +1,5 @@
+The Data Sciences Program (DSP) started on October 2015 as one of the “International Priority Graduate Programs (PGP) - Advanced Graduate Courses for International Students - ” supported by the Ministry of Education, Culture, Sports, and Technology (MEXT).
+Main purpose of this program is to develop highly-specialized global human resource of data sciences contributing to construction of social, life, and environmental foundations.
+The program is designed to acquire not only basic knowledge and skills of data sciences based on computer sciences, fundamental mathematics, and engineering, but also practical skills for discovery and solving the real world problems in life sciences, social sciences, economics, and others.
+Graduate School of Information Sciences (GSIS) conducts this program in collaboration with graduate schools of Life Sciences, Economics and Management, and Engineering in Tohoku University.
+The courses will mainly be given in English except for some optional subjects to learn Japanese language and culture.
